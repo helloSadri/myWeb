@@ -1,0 +1,271 @@
+
+
+body{
+
+}
+
+
+@media (min-width: 768px){
+
+  #left {
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+
+
+  }
+  
+  #right {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    overflow-y: scroll;
+    /*width: 65%;*/
+
+  }
+
+}
+
+@media all and (min-width: 768px) and (max-width: 1280px){
+  #left {
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+
+
+  }
+  
+  #right {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    overflow-y: scroll;
+
+  }
+
+}
+
+
+
+@media (max-width: 992px){
+  #left {
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+
+  }
+  
+
+}
+/*==== LEFT =====*/
+
+#left {
+
+ height: 100vh;
+ background-image: url("image/overlay.png"), url("image/sadriID.jpg"); 
+ background-size: auto,                  100vh;
+ background-repeat: repeat,              no-repeat;
+ justify-content: space-between;
+ top: 0;
+}
+
+
+
+#connect {
+  padding-top: 5vh;
+
+}
+
+li {
+  list-style-type: none;
+}
+
+li:hover{
+  color: #3091cb;
+}
+
+.rebtn-link{
+  color: #FFF000;
+  text-decoration: none; 
+}
+
+.rebtn-link:hover {
+  color: #367FEC;
+}
+
+#dev p{
+  padding-top: 25vh;
+  padding-left:10%;
+  font-size: 5em;
+  color: #FFF000;
+  position: relative;
+  font-family: 'Permanent Marker', cursive;
+}
+
+
+/*==== RIGHT =====*/
+
+#right{
+  background-color: rgba( 255, 255, 255, 1);
+}
+
+
+section {
+  width: 100%;
+  padding: 0 7%;
+  height: 100vh;
+
+}
+
+.style-inter{
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+/*==== Section ====*/
+
+.title h1{
+  color: #3091cb;
+  padding-top: 5vh;
+  padding-bottom: 3vh;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.title h2{
+  padding-top: 5vh;
+  padding-bottom: 3vh;
+}
+
+#containerPart1 p{
+  margin: 1em;
+}
+
+
+#part1{
+  height: 80vh;
+  color: #4b5885;
+}
+
+#part1 p{
+ color: #4b5885;
+}
+
+
+#part3{
+  text-align: center;
+}
+
+#titleTrick{
+ color: #3091cb;
+ padding-top: 10vh;
+ padding-bottom: 5vh;
+ font-family: 'Permanent Marker', cursive;
+}
+
+.conterLogo{
+ margin: 0px auto;
+ padding: 5vh;
+}
+
+.img-responsive{
+ margin-bottom: 3vh;
+ margin-right: 10vh;
+
+}
+
+#contact {
+  text-align: center;
+  height: 50vh;
+}
+
+#titleGet h1{
+ color: #3091cb;
+ padding-top: 10vh;
+ padding-bottom: 3vh;
+ font-family: 'Permanent Marker', cursive;
+}
+
+.content {
+  display: table-cell;
+}
+
+#titleGet a {
+  color: #3091cb;
+}
+
+h1 {
+  font-size: 3em;
+  display: block;
+  color: white;
+  font-weight: 300;
+}
+
+p {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #C3CAD9;
+}
+
+a {
+  font-weight: 700;
+  color: #373B44;
+  position: relative;
+
+  &:hover{ 
+    opacity: 0.8;
+  }
+
+  &:active {
+    top: 1px;
+  }
+}
+
+/*====== CARD =======*/
+
+
+.recards {
+  margin: 0px auto;
+  padding: 5vh;
+}
+
+.recards:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card {
+
+  width: 30%;
+  margin-right: 2%;
+  float: left;
+  border-radius: 2px;
+  box-shadow: 4px 5px 3px #979797;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 2vh;
+}
+
+
+.card-image img {
+  width: 100%;
+  display: block;
+}
+
+
+/*==== Social icon ====*/
+
+.list-social .btn { 
+  font-size:1.3em; 
+
+}
+.list-social .btn:hover { 
+  text-decoration: none; 
+}
+
+
