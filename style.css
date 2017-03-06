@@ -15,7 +15,7 @@ body{
     top: 0px;
     bottom: 0;
     left: 0;
-
+    
 
   }
   
@@ -31,62 +31,21 @@ body{
 
 }
 
-@media all and (min-width: 768px) and (max-width: 1280px){
-  #left {
-    position: absolute;
-    top: 0px;
-    bottom: 0;
-    left: 0;
 
-
-  }
-  
-  #right {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    overflow-y: scroll;
-
-  }
-
-}
-
-
-
-@media (max-width: 992px){
-  #left {
-    position: absolute;
-    top: 0px;
-    bottom: 0;
-    left: 0;
-
-  }
-  
-  #right {
- /*   position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    overflow-y: scroll;*/
-
-
-  }
-}
 /*==== LEFT =====*/
 
 #left {
 
- height: 100vh;
- /*  top: 0;*/
- background-image: url("image/overlay.png"), url("image/sadriID.jpg"); 
- background-size: auto,                  100vh;
- /*background-size: auto,                  auto;*/
- background-repeat: repeat,              no-repeat;
+  height: auto;
+  /*  top: 0;*/
+  background-image: url("image/overlay.png"), url("image/sadriID.jpg"); 
+  background-size: auto,                  100vh;
+  /*background-size: auto,                  auto;*/
+  background-repeat: repeat,              no-repeat;
 
- justify-content: space-between;
- top: 0;
- /*width: 35%*/
+  justify-content: space-between;
+  top: 0;
+  /*width: 35%*/
 
 }
 
@@ -115,22 +74,24 @@ li:hover{
 }
 
 #dev p{
-  padding-top: 25vh;
-  padding-left:10%;
   font-size: 5em;
   color: #FFF000;
-  position: relative;
   font-family: 'Permanent Marker', cursive;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+
 }
 /*==== RIGHT =====*/
 
 
 #right{
-
+  /*height: 1200px;*/
   /*height: 100vh;*/
   /*width: 65%; */
-  background-color: rgba( 255, 255, 255, 1);
-
+  /*background-color: rgba( 255, 255, 255, 1);*/
+  /*height: 1200px;*/
 }
 /* * {
   box-sizing: border-box; 
@@ -173,6 +134,7 @@ li:hover{
 
 
   #part1{
+    /*height: 50%;*/
     /*height: 100vh;*/
     /*background-color: blue;*/
     color: #4b5885;
@@ -184,20 +146,20 @@ li:hover{
 
 
  #part2{
-  height: 100vh;
+  /*height: 100vh;*/
   /*background-color: red;*/
 
 }
 
 #part3{
-  height: 100vh;
+  /*height: 100vh;*/
   /*background-color: blue;*/
   text-align: center;
 }
 
 #part3 img{
-  width:50%;
-  height:auto;
+  width:45%;
+
 }
 
 
@@ -223,7 +185,7 @@ li:hover{
 #contact {
   text-align: center;
   /*background-color:purple;*/
-  height: 50vh;
+  /*height: 50vh;*/
 }
 #titleGet h1{
  color: #3091cb;
